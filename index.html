@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <section id="home">
+      <!-- HOME SECTION -->
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="wrapper">
+        <div class="header">
+          <div class="logo">Port<b>folio</b></div>
+          <!-- <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul> -->
+        </div>
+        <div class="section1">
+          <h2>GLEN PULE</h2>
+          <span>BCom Computer Science & Information Systems Student</span>
+          <p>
+            I’m interested in software development, systems analysis and
+            technology driven problem solving. I enjoy building practical
+            solutions, working with data and understanding how systems support
+            real world business needs.
+          </p>
+          <a href="#about" class="explore_btn">Start Exploring</a>
+        </div>
+        <!-- <div class="section2">
+        <img src="Images/Glen1.1.png" alt="" />
+      </div> -->
+      </div>
+      <div class="section2">
+        <img src="Images/Glen1.1.png" alt="" />
+      </div>
+
+      <!-- MOBILE HOME -->
+      <div class="card_container">
+        <div class="mobile_wrapper">
+          <div class="profile">
+            <img src="Images/profile1.jpg" alt="" />
+            <h2>Glen Pule</h2>
+            <div class="username">@puleglen</div>
+          </div>
+          <div class="mobile_btn">
+            <div class="f-btn">
+              <input type="submit" value="follow" />
+            </div>
+            <div class="cheer-bubble" id="cheerBubble">
+              🎉😎 Woohoo! You’re officially awesome!
+            </div>
+            <a
+              href="Files/Pule_GL_CV.pdf"
+              download
+              class="resume"
+              title="Download CV"
+            >
+              <i class="bx bxs-download"></i>
+            </a>
+            <!-- <a href="#home" download class="resume" title="Download CV">
+              <i class="bx bxs-download"></i>
+            </a> -->
+            <div class="menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="dropdown" id="dropdownMenu">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=100089882393908"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/glen-pule/"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a href="https://www.instagram.com/glvib_es/"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT ME SECTION -->
+    <div class="about_wrapper" id="about">
+      <div class="about_section1">
+        <h2>ABOUT ME</h2>
+        <p>
+          I am a final year Bcom Computer Science & Information Systems student
+          at Nelson Mandela University. My academic background combines software
+          development, systems analysis and business focused computing, giving
+          me both technical and analytical capabilities.
+        </p>
+        <br />
+        <p>
+          I have a strong foundation in object oriented programming, data
+          structures and system design with experience in C#, SQL, Java and
+          Python. I am particularly interested in solving structured problems,
+          analysing system behaviour and building reliable and maintainable
+          software solutions. I enjoy working with data and understanding how
+          technology supports business processes.
+        </p>
+        <br />
+        <p>
+          I am seeking graduate or entry level opportunities in software
+          development, IT consulting or system related roles where I can apply
+          technical knowledge, analytical thinking and problem solving skills in
+          real world environments. My goal is to grow into a well rounded
+          technology professional capable of contributing complex systems and
+          enterprise solutions.
+        </p>
+      </div>
+      <div class="about_section2">
+        <div class="container">
+          <div class="card">
+            <div class="about_logo">
+              <div class="about_circle circle1"></div>
+              <div class="about_circle circle2"></div>
+              <div class="about_circle circle3"></div>
+              <div class="about_circle circle4"></div>
+              <div class="about_circle circle5">
+                <a href="">
+                  <!-- <ion-icon name="color-palette-outline"></ion-icon> -->
+                  <i class="bx bx-search-alt-2 bx-flashing"></i>
+                </a>
+              </div>
+            </div>
+            <div class="glass"></div>
+            <div class="content">
+              <span class="title"> Socials </span>
+              <span class="text">
+                Get all Information about me, through this social media
+                below</span
+              >
+            </div>
+            <div class="bottom">
+              <div class="social_buttons">
+                <button class="social_button social_button1">
+                  <a href="https://www.instagram.com/glvib_es/">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </button>
+                <button class="social_button social_button2">
+                  <a href="https://www.linkedin.com/in/glen-pule/"
+                    ><ion-icon name="logo-linkedin"></ion-icon
+                  ></a>
+                </button>
+                <button class="social_button social_button3">
+                  <a href="https://github.com/GLPule">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </button>
+              </div>
+              <div class="view_more">
+                <button class="view_more_btn" id="toggleSocial">
+                  View More
+                </button>
+                <!-- <a href="">
+                  <ion-icon name="chevron-down-outline"></ion-icon>
+                </a> -->
+                <ion-icon name="chevron-down-outline" class="a"></ion-icon>
+              </div>
+            </div>
+            <!-- HIDDEN SOCIALS -->
+            <div class="extra_socials">
+              <div class="social_buttons">
+                <button class="social_button social_button4">
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100089882393908"
+                  >
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </button>
+                <button class="social_button social_button5">
+                  <a href="https://za.pinterest.com/lescowiyzee/"
+                    ><ion-icon name="logo-pinterest"></ion-icon
+                  ></a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TECHNICAL SKILLS SECTION -->
+    <div class="technical_wrapper" id="skills">
+      <div class="technical_section1">
+        <h2>MY SKILLS</h2>
+        <h1 class="head">Technical skills</h1>
+        <div class="technical_container1" id="skills">
+          <h1 class="heading">Programming</h1>
+          <div class="technical_bars">
+            <div class="bar">
+              <i
+                style="color: #c95d2e"
+                class="bx bxl-visual-studio bx-flip-vertical"
+              ></i>
+              <div class="info">
+                <span>C#</span>
+              </div>
+              <div class="progress_line visual_studio">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <i
+                style="color: #147bbc"
+                class="bx bxl-java bx-flip-vertical"
+              ></i>
+              <div class="info">
+                <span>JAVA</span>
+              </div>
+              <div class="progress_line java">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <i style="color: #b0bc1e" class="bx bxl-python"></i>
+
+              <div class="info">
+                <span>PYTHON</span>
+              </div>
+              <div class="progress_line python">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <i style="color: #c32ec9" class="bx bxl-javascript"></i>
+              <div class="info">
+                <span>JAVASCRIPT</span>
+              </div>
+              <div class="progress_line javascript">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <i style="color: #69bcbc" class="bx bx-data"></i>
+              <div class="info">
+                <span>SQL</span>
+              </div>
+              <div class="progress_line sql">
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="technical_container1" id="skills">
+          <h1 class="heading">Tools</h1>
+          <div class="technical_bars">
+            <div class="bar">
+              <i style="color: #c95d2e" class="bx bx-windows"></i>
+              <div class="info">
+                <span>WINDOWS</span>
+              </div>
+              <div class="progress_line windows">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <i style="color: #147bbc" class="bx bxl-git"></i>
+              <div class="info">
+                <span>GIT</span>
+              </div>
+              <div class="progress_line git">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <i style="color: #b0bc1e" class="bx bx-terminal"></i>
+              <div class="info">
+                <span>LINUX</span>
+              </div>
+              <div class="progress_line linux">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <i style="color: #c32ec9" class="bx bxl-microsoft"></i>
+              <div class="info">
+                <span>EXCEL</span>
+              </div>
+              <div class="progress_line excel">
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="technical_section2">
+        <div class="technical_container1" id="skills">
+          <h1 class="heading">Web</h1>
+          <div class="technical_bars">
+            <div class="bar">
+              <i style="color: #c95d2e" class="bx bxl-html5"></i>
+              <div class="info">
+                <span>HTML</span>
+              </div>
+              <div class="progress_line html">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <i style="color: #147bbc" class="bx bxl-css3"></i>
+              <div class="info">
+                <span>CSS</span>
+              </div>
+              <div class="progress_line css">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <i style="color: #b0bc1e" class="bx bxs-devices"></i>
+              <div class="info">
+                <span>RESPONSIVE DESIGN</span>
+              </div>
+              <div class="progress_line responsive_design">
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="technical_container1">
+          <h1 class="head">Professional skills</h1>
+          <div class="radial_bars">
+            <div class="radial_bar">
+              <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress_bar" cx="100" cy="100" r="80"></circle>
+                <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+              </svg>
+              <div class="percentage">95%</div>
+              <div class="text">Creativity</div>
+            </div>
+            <div class="radial_bar">
+              <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress_bar" cx="100" cy="100" r="80"></circle>
+                <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+              </svg>
+              <div class="percentage">90%</div>
+              <div class="text">Communication</div>
+            </div>
+            <div class="radial_bar">
+              <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress_bar" cx="100" cy="100" r="80"></circle>
+                <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+              </svg>
+              <div class="percentage">85%</div>
+              <div class="text">Problem Solving</div>
+            </div>
+            <div class="radial_bar">
+              <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress_bar" cx="100" cy="100" r="80"></circle>
+                <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+              </svg>
+              <div class="percentage">85%</div>
+              <div class="text">Teamwork</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+      <div class="project_wrapper">
+        <div class="project_section1">
+          <h2>PROJECTS</h2>
+          <div class="project_container">
+            <div class="gallery">
+              <div class="image">
+                <img src="Images/img1.jpg" alt="" />
+                <div class="project_content">
+                  <h3>Church Explorer</h3>
+                  <p>Web...</p>
+                  <div class="project_logo">
+                    <span>
+                      <a href="" class="maintenance-link"
+                        ><ion-icon name="play-circle-outline"></ion-icon
+                      ></a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="image">
+                <img src="Images/img2.jpg" alt="" />
+                <div class="project_content">
+                  <h3>CHATBOT</h3>
+                  <p>Python..</p>
+                  <div class="project_logo">
+                    <span>
+                      <a href="" class="maintenance-link"
+                        ><ion-icon name="play-circle-outline"></ion-icon
+                      ></a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="image">
+                <img src="Images/img3.jpg" alt="" />
+                <div class="project_content">
+                  <h3>GAME</h3>
+                  <p>Python..</p>
+                  <div class="project_logo">
+                    <span>
+                      <a href="" class="maintenance-link"
+                        ><ion-icon name="play-circle-outline"></ion-icon
+                      ></a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="image">
+                <img src="Images/img4.jpg" alt="" />
+                <div class="project_content">
+                  <h3>PERSONAL BURGET</h3>
+                  <p>Excel...</p>
+                  <div class="project_logo">
+                    <span>
+                      <a href="" class="maintenance-link"
+                        ><ion-icon name="play-circle-outline"></ion-icon
+                      ></a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="image">
+                <img src="Images/img5.jpg" alt="" />
+                <div class="project_content">
+                  <h3>GYM PROGRESS TRACKER</h3>
+                  <p>Excel...</p>
+                  <div class="project_logo">
+                    <span>
+                      <a href="" class="maintenance-link"
+                        ><ion-icon name="play-circle-outline"></ion-icon
+                      ></a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MOBILE PROJECT -->
+      <div class="focus-gallery">
+        <div class="scroll-hint">Scoll to view more→</div>
+        <h2>PROJECTS</h2>
+        <div class="item">
+          <div class="image">
+            <img src="Images/img1.jpg" alt="" />
+            <div class="project_content">
+              <h3>Church Explorer</h3>
+              <p>Web...</p>
+              <div class="project_logo">
+                <span>
+                  <a href="" class="maintenance-link"
+                    ><ion-icon name="play-circle-outline"></ion-icon
+                  ></a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="image">
+            <img src="Images/img2.jpg" alt="" />
+            <div class="project_content">
+              <h3>CHATBOT</h3>
+              <p>Python..</p>
+              <div class="project_logo">
+                <span>
+                  <a href="" class="maintenance-link"
+                    ><ion-icon name="play-circle-outline"></ion-icon
+                  ></a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="image">
+            <img src="Images/img3.jpg" alt="" />
+            <div class="project_content">
+              <h3>GAME</h3>
+              <p>Python..</p>
+              <div class="project_logo">
+                <span>
+                  <a href="" class="maintenance-link"
+                    ><ion-icon name="play-circle-outline"></ion-icon
+                  ></a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="image">
+            <img src="Images/img4.jpg" alt="" />
+            <div class="project_content">
+              <h3>PERSONAL BURGET</h3>
+              <p>Excel...</p>
+              <div class="project_logo">
+                <span>
+                  <a href="" class="maintenance-link"
+                    ><ion-icon name="play-circle-outline"></ion-icon
+                  ></a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="image">
+            <img src="Images/img5.jpg" alt="" />
+            <div class="project_content">
+              <h3>GYM PROGRESS TRACKER</h3>
+              <p>Excel...</p>
+              <div class="project_logo">
+                <span>
+                  <a href="" class="maintenance-link"
+                    ><ion-icon name="play-circle-outline"></ion-icon
+                  ></a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="maintenance-popup">
+        🚧 This project is currently under maintenance.
+      </div>
+    </section>
+    <!-- CONTACT SECTION-->
+    <div class="contact_wrapper" id="contact">
+      <div class="contact_section1">
+        <h2 id="h2">CONTACT</h2>
+        <div class="contact_container">
+          <h2>Get in Touch</h2>
+          <form>
+            <div class="input_group">
+              <input type="text" id="name" required />
+              <label for="name">Full Name</label>
+            </div>
+
+            <div class="input_group">
+              <input type="text" id="phone" required />
+              <label for="phone">Phone Number</label>
+            </div>
+
+            <div class="input_group">
+              <input type="email" id="email" required />
+              <label for="email">Email</label>
+            </div>
+
+            <div class="input_group">
+              <input type="text" id="subject" required />
+              <label for="subject">Subject</label>
+            </div>
+
+            <div class="input_group">
+              <textarea id="message" rows="5" required></textarea>
+              <label for="message">Message</label>
+            </div>
+
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <div class="footer_wrapper">
+      <div class="footer_content">
+        <div class="footer_left">
+          <h2>Glen Pule</h2>
+          <p>
+            BCom Computer Science & Information Systems Student passionate about
+            building structured, scalable and reliable software systems.
+          </p>
+        </div>
+
+        <div class="footer_center">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_right">
+          <h3>Connect</h3>
+          <div class="footer_socials">
+            <a href="https://github.com/GLPule"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/glen-pule/"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a href="https://www.instagram.com/glvib_es/"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+          </div>
+
+          <button id="backToTop" class="back_to_top">
+            <i class="bx bxs-up-arrow-alt bx-fade-up"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="footer_bottom">© 2026 Glen Pule. All rights reserved.</div>
+    </div>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
