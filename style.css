@@ -260,7 +260,7 @@ body {
 .about_wrapper {
   width: 90%;
   max-width: 860px;
-  height: 680px;
+  height: 520px;
   margin: 120px auto;
   position: relative;
   backdrop-filter: blur(20px);
