@@ -162,7 +162,7 @@ body {
 
 .section1 {
   position: absolute;
-  top: 150px;
+  top: 110px;
   left: 70px;
   color: #fff;
   width: 300px;
@@ -260,7 +260,7 @@ body {
 .about_wrapper {
   width: 90%;
   max-width: 860px;
-  height: 520px;
+  height: 480px;
   margin: 120px auto;
   position: relative;
   backdrop-filter: blur(20px);
@@ -776,7 +776,7 @@ body {
 }
 
 .progress_line.python span {
-  width: 40%;
+  width: 75%;
 }
 
 .progress_line.javascript span {
@@ -837,7 +837,7 @@ body {
 }
 
 .progress_line.python span::after {
-  content: "40%";
+  content: "75%";
 }
 
 .progress_line.javascript span::after {
@@ -928,7 +928,7 @@ body {
 
 .radial_bars .radial_bar svg {
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(-90deg);
   width: 120px;
@@ -1002,7 +1002,7 @@ body {
 
 .radial_bar .percentage {
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: clamp(13px, 4vw, 17px);
