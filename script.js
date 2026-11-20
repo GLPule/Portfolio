@@ -169,7 +169,7 @@ document.addEventListener("click", () => {
   dropdown.classList.remove("show");
 });
 
-// MOBILE PROJECT
+// MOBILE PROJECT ("CREDIT TO DARK CSS")
 window.lazyLoadOptions = Object.assign(
   {},
   { threshold: 300 },

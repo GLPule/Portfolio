@@ -162,10 +162,10 @@ body {
 
 .section1 {
   position: absolute;
-  top: 110px;
+  top: 100px;
   left: 70px;
   color: #fff;
-  width: 300px;
+  width: 400px;
   transform: translateX(-40px);
   animation: slideLeft 1.5s ease forwards;
   opacity: 0;
@@ -260,7 +260,7 @@ body {
 .about_wrapper {
   width: 90%;
   max-width: 860px;
-  height: 480px;
+  height: 550px;
   margin: 120px auto;
   position: relative;
   backdrop-filter: blur(20px);
@@ -768,7 +768,7 @@ body {
 }
 
 .progress_line.visual_studio span {
-  width: 80%;
+  width: 65%;
 }
 
 .progress_line.java span {
@@ -776,7 +776,7 @@ body {
 }
 
 .progress_line.python span {
-  width: 75%;
+  width: 80%;
 }
 
 .progress_line.javascript span {
@@ -829,7 +829,7 @@ body {
 }
 
 .progress_line.visual_studio span::after {
-  content: "80%";
+  content: "65%";
 }
 
 .progress_line.java span::after {
@@ -837,7 +837,7 @@ body {
 }
 
 .progress_line.python span::after {
-  content: "75%";
+  content: "80%";
 }
 
 .progress_line.javascript span::after {
@@ -1153,7 +1153,12 @@ body {
 .project_content h3 {
   font-size: 16px;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+}
+
+.project_content h5 {
+  font-size: 12px;
+  margin-bottom: 10px;
 }
 
 .project_logo span {
